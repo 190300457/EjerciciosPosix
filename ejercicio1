@@ -1,7 +1,5 @@
 #!/bin/bash  
-# Esto es un comentario  
-echo "Hola mundo"
-# Se define una variable  
+echo "Hola mundo" 
 SALUDO="Hola mundo"
 echo ­n "Este script te dice: "
 echo ${SALUDO}
