@@ -1,0 +1,10 @@
+#!/bin/bash 
+## un for simple 
+echo "FOR simple: "  
+for i in a b c d e f g h i  
+do  
+echo  "letra: $i"  
+done 
+## for para recorrer array  
+NOMBRES="Iñigo Sten Asier Pello Roberto"  
+echo "FOR simple para recorrer un array: " 
