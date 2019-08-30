@@ -1,0 +1,9 @@
+#!/bin/bash 
+## operaciones lógicas 
+#  && : and  
+#  || : or  
+#  !  : not 
+booleano=true 
+# Si la variable booleano es true veremos por pantalla "OK"  
+$booleano && echo "OK" || echo "no es true" 
+otrobool=!${booleano
