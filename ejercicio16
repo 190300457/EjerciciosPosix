@@ -12,3 +12,5 @@ funcion () {    
 while true  
 do    
   sleep 2 
+  echo "ufff qué sueño..."  
+done 
