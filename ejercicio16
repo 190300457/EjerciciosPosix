@@ -1,22 +1,13 @@
 #!/bin/bash
 
-# señales
+# No es que existan las librerías pero se puede simular
+# algo similar
 
-funcion () {
-  echo "Se ha recibido una señal: ${FUNCNAME} ${0}"
-  #exit
-}
+# Esta es la forma de importar funciones
+source libreria.sh
 
-# Lo primero es establecer que señales se atraparán. Lo hacemos con trap
-# Con esto evitaremos que se haga caso a Ctrl­C CTRL­Z
-# trap ":" INT QUIT TSTP
+muestrapantalla 69 123 "epa"
 
-# Esto es similar pero al recibir la señal dirigimos la ejecución a la función
-trap "funcion" INT QUIT TSTP
+sumame 1337 3389 && echo "OK" || echo "Ocurrió un error"
 
-# Un bucle sin fin para probar
-while true
-do
-  sleep 2
-  echo "ufff qué sueño..."
-done
+echo "Resultado: ${RESULTADO} $!"
