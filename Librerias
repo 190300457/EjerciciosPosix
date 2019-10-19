@@ -4,7 +4,7 @@
 # algo similar
 
 # Esta es la forma de importar funciones
-source libreria.sh
+source Funciones.sh
 
 muestrapantalla 69 123 "epa"
 
