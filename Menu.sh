@@ -13,126 +13,156 @@ pause(){
 
 # hola mundo
 holaMundo(){
-        /bin/bash/ /home/Eduardo/Scripts/Holamundo.sh
+        /home/Eduardo/ScriptsPosix/Holamundo.sh
         pause
 }
 
 # hola mundo variable
 holaMundovariable(){
-        /bin/bash/ /home/Eduardo/Scripts/HolamundoVarible.sh
+        /home/Eduardo/ScriptsPosix/HolamundoVariables.sh
         pause
 }
 
 # Variables
 Variables(){
-        /bin/bash/ /home/Eduardo/Scripts/Varibles.sh
+        /home/Eduardo/ScriptsPosix/Variables.sh
         pause
 }
 
 # Arrays
 Arrays(){
-        /bin/bash/ /home/Eduardo/Scripts/Arrays.sh
+        /home/Eduardo/ScriptsPosix/Arrays.sh
         pause
 }
 
 # ArraysUsos
 ArraysUsos(){
-        /bin/bash/ /home/Eduardo/Scripts/ArraysUsos.sh
+        /home/Eduardo/ScriptsPosix/ArraysUsos.sh
         pause
 }
 
 # OperacionAritmetica
 Operacionaritmetica(){
-        /bin/bash/ /home/Eduardo/Scripts/OperacionAritmetica.sh
+        /home/Eduardo/ScriptsPosix/OperacionAritmetica.sh
         pause
 }
 
 # OperacionesLogicas
 Operacioneslogicas(){
-        /bin/bash/ /home/Eduardo/Scripts/OperacionesLogicas.sh
+        /home/Eduardo/ScriptsPosix/OperacionesLogicas.sh
         pause
 }
 
 # Condicionales
 condicionales(){
-        /bin/bash/ /home/Eduardo/Scripts/Condicionales.sh
+        /home/Eduardo/ScriptsPosix/Condicionales.sh
         pause
 }
 
 # Comprobaciones
 comprobaciones(){
-        /bin/bash/ /home/Eduardo/Scripts/Comprobaciones.sh
+        /home/Eduardo/ScriptsPosix/Comprobaciones.sh
         pause
 }
 
 # Case
 Case10(){
-        /bin/bash/ /home/Eduardo/Scripts/Case.sh
+        /home/Eduardo/ScriptsPosix/Case.sh
         pause
 }
 
 # Iteraciones
 iteraciones(){
-        /bin/bash/ /home/Eduardo/Scripts/Iteraciones.sh
+        /home/Eduardo/ScriptsPosix/Interaciones.sh
         pause
 }
 
 # While
 While12(){
-        /bin/bash/ /home/Eduardo/Scripts/While.sh
+        /home/Eduardo/ScriptsPosix/While.sh
         pause
 }
 
 # Until
 Until13(){
-        /bin/bash/ /home/Eduardo/Scripts/Until.sh
+        /home/Eduardo/ScriptsPosix/Until.sh
         pause
 }
 
 # Select
 select14(){
-        /bin/bash/ /home/Eduardo/Scripts/Select.sh
+        /home/Eduardo/ScriptsPosix/Select.sh
         pause
 }
 
 # Funciones
 funciones(){
-        /bin/bash/ /home/Eduardo/Scripts/Funciones.sh
+        /home/Eduardo/ScriptsPosix/Funciones.sh
         pause
 }
 
 # Librerias
 librerias(){
-        /bin/bash/ /home/Eduardo/Scripts/Librerias.sh
+        /home/Eduardo/ScriptsPosix/Librerias.sh
         pause
 }
 
 # Señales
 Senales(){
-        /bin/bash/ /home/Eduardo/Scripts/Señales.sh
+        /home/Eduardo/ScriptsPosix/Señales.sh
         pause
 }
 
 # Colores
 colores(){
-        /bin/bash/ /home/Eduardo/Scripts/Colores.sh
+        /home/Eduardo/ScriptsPosix/Colores.sh
         pause
+}
+
+# Laboratorio1
+Laboratorio1(){
+	/home/Eduardo/scriptslabs/Linux-lab1.sh
+	pause
+}
+
+# Laboratorio2
+Laboratorio2(){
+	/home/Eduardo/scriptslabs/Linux-lab2.sh
+	pause
+}
+
+#Laboratioro3
+Laboratorio3(){
+	/home/Eduardo/scriptslabs/Linux-lab3.sh
+	pause
+}
+
+#Laboratorio4
+Laboratorio4(){
+	/home/Eduardo/scriptslabs/Linux-lab4.sh
+	pause
+}
+
+#Laboratorio5
+Laboratorio5(){
+	/home/Eduardo/scriptslabs/Linux-lab5.sh
+	pause
 }
 
 # function to display menus
 show_menus() {
         clear
-        echo -e "\033[40m\033[;32m███╗   ███╗███████╗███╗   ██╗██╗   ██╗    ██████╗ ███████╗    ███████╗ ██████╗██████╗ ██╗██████╗ ████████╗███████╗\033[0m"
-        echo -e "\033[40m\033[;1;32m████╗ ████║██╔════╝████╗  ██║██║   ██║    ██╔══██╗██╔════╝    ██╔════╝██╔════╝██╔══██╗██║██╔══██╗╚══██╔══╝██╔════╝\033[0m"
-        echo -e "\033[40m\033[;36m██╔████╔██║█████╗  ██╔██╗ ██║██║   ██║    ██║  ██║█████╗      ███████╗██║     ██████╔╝██║██████╔╝   ██║   ███████╗\033[0m"
-        echo -e "\033[40m\033[;1;36m██║╚██╔╝██║██╔══╝  ██║╚██╗██║██║   ██║    ██║  ██║██╔══╝      ╚════██║██║     ██╔══██╗██║██╔═══╝    ██║   ╚════██║\033[0m"
-        echo -e "\033[40m\033[;1;34m██║ ╚═╝ ██║███████╗██║ ╚████║╚██████╔╝    ██████╔╝███████╗    ███████║╚██████╗██║  ██║██║██║        ██║   ███████║\033[0m"
-        echo -e "\033[40m\033[;35m╚═╝     ╚═╝╚══════╝╚═╝  ╚═══╝ ╚═════╝     ╚═════╝ ╚══════╝    ╚══════╝ ╚═════╝╚═╝  ╚═╝╚═╝╚═╝        ╚═╝   ╚══════╝\033[0m"
+        echo -e "\033[40m\033[;32m    █▀▄▀█ ▄███▄      ▄     ▄              ▄▄▄▄▄   ▄█▄    █▄▄▄▄ ▄█ █ ▄▄     ▄▄▄▄▀ ▄▄▄▄▄   \033[0m"
+        echo -e "\033[40m\033[;1;32m    █ █ █ █▀   ▀      █     █            █     ▀▄ █▀ ▀▄  █  ▄▀ ██ █   █ ▀▀▀ █   █     ▀▄ \033[0m"
+        echo -e "\033[40m\033[;36m    █ ▄ █ ██▄▄    ██   █ █   █         ▄  ▀▀▀▀▄   █   ▀  █▀▀▌  ██ █▀▀▀      █ ▄  ▀▀▀▀▄   \033[0m"
+        echo -e "\033[40m\033[;1;36m    █   █ █▄   ▄▀ █ █  █ █   █          ▀▄▄▄▄▀    █▄  ▄▀ █  █  ▐█ █        █   ▀▄▄▄▄▀    \033[0m"
+        echo -e "\033[40m\033[;34m       █  ▀███▀   █  █ █ █▄ ▄█                    ▀███▀    █    ▐  █      ▀              \033[0m"
+        echo -e "\033[40m\033[;1;34m      ▀           █   ██  ▀▀▀                             ▀         ▀                    \033[0m"
         echo -e "\033[40m\033[;35m1. Hola mundo\033[0m"
         echo -e "\033[40m\033[;32m2. Hola mundo varible\033[0m"
         echo -e "\033[40m\033[;36m3. Variables\033[0m"
         echo -e "\033[40m\033[;1;33m4. Arrays\033[0m"
-        echo -e "\033[40m\033[;1;35m5.ArraysUsos\033[0m"
+        echo -e "\033[40m\033[;1;35m5. ArraysUsos\033[0m"
         echo -e "\033[40m\033[;33m6. OperacionAritmetica\033[0m"
         echo -e "\033[40m\033[;1;31m7. Operacioneslogicas\033[0m"
         echo -e "\033[40m\033[;37m8. Condicionales\033[0m"
@@ -146,12 +176,17 @@ show_menus() {
         echo -e "\033[40m\033[;1;33m16. Librerias\033[0m"
         echo -e "\033[40m\033[;1;36m17. Señales\033[0m"
         echo -e "\033[40m\033[;31m18. Colores\033[0m"
-        echo -e "\033[40m\033[;35m19. Exit\033[0m"
+	echo -e "\033[40m\033[;1;30m19. Laboratorio 1\033[0m"
+	echo -e "\033[40m\033[;32m20. Laboratorio 2\033[0m"
+	echo -e "\033[40m\033[;37m21. Laboratorio 3\033[0m"
+	echo -e "\033[40m\033[;1;31m22. Laboratorio 4\033[0m"
+	echo -e "\033[40m\033[;35m23. Laboratorio 5\033[0m"
+        echo -e "\033[40m\033[;35m24. Exit\033[0m"
 }
 
 read_options(){
         local choice
-        read -p "Enter choice [ 1 - 19] " choice
+        read -p "Enter choice [ 1 - 24] " choice
         case $choice in
                 1) holaMundo ;;
                 2) holaMundovariable ;;
@@ -171,15 +206,20 @@ read_options(){
                 16) librerias ;;
                 17) Senales ;;
                 18) colores ;;
-                19) exit 0;;
+		19) Laboratorio1 ;;
+		20) Laboratorio2 ;;
+		21) Laboratorio3 ;;
+		22) Laboratorio4 ;;
+		23) Laboratorio5 ;;
+                24) exit 0;;
                 *) echo -e "${RED}Error...${STD}" && sleep 2
         esac
 }
 
-# ----------------------------------------------
-# Trap CTRL+C CTRL+Z and quit singles
-# ----------------------------------------------
-trap '' SIGINT SIGQUIT SIGTSTP
+# -----------------------------
+# Trap CTRL+Z and quit singles
+# -----------------------------
+trap '' SIGQUIT SIGTSTP
 
 # -----------------------------------
 # Min logic - infinite loop
